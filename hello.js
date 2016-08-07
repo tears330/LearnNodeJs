@@ -7,7 +7,7 @@ var server = http.createServer(function(request, response) {
 	response.writeHead(200, {
 		"Content-Type": "text/html"
 	});
-	response.end("<div>Hello world</div>");
+	response.end("<div>最稀罕我大闺女！</div>");
 });
 
 // 监听8080端口
